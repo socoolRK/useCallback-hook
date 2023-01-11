@@ -4,7 +4,7 @@ function Title() {
     console.log('Rendering title')
     return (
         <div>
-            <h1>useCallback Hook</h1>
+            <h2>useCallback Hook</h2>
         </div>
     )
 }

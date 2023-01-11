@@ -17,9 +17,9 @@ function ParentComponent() {
   return (
     <div>
       <Title />
-      <Count text="age" count={age}/>
+      <Count text="Age" count={age}/>
       <Button handleClick={incrementAge}>Increment age</Button>
-      <Count text="salary" count={salary} />
+      <Count text="Salary" count={salary} />
       <Button handleClick={incrementSalary}>Increment salary</Button>
     </div>
   )
