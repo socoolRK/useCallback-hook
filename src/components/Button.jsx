@@ -4,9 +4,9 @@ function Button({handleClick, children}) {
     console.log('Rendering button -', children)
   return (
     <div>
-      <Button onClick={handleClick}>
+      <button onClick={handleClick}>
         {children}
-      </Button>
+      </button>
     </div>
   )
 }
